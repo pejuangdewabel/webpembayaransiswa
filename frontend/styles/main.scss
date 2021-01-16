@@ -1,0 +1,90 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;       
+    color: royalblue;
+}
+
+// Navbar
+.navbar-brand{
+    font-weight: 800;
+    img{        
+        max-height: 50px;
+    }
+}
+
+.btn-login{   
+    font-weight: 600;
+
+    &:hover{
+        background-color: orange !important;
+        border-color: orange;
+    }
+}
+
+// Header
+header{
+    padding: 120px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+
+    h1, h3, p{
+        color: #fff;        
+    }
+
+    h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 40px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .btn-get-login{
+        background-color: royalblue;
+        font-size: 20px;
+        color: #fff;
+
+        &:hover{
+            background-color: rgb(49, 69, 128);
+            color: #fff;
+        }
+    }
+}
+
+// petunjuk
+.section-petujuk{
+    h2{
+        font-weight: 600;
+    }
+    table{
+        color: #000 !important;
+    }
+    img{
+        height: 200px;
+        width: 150px;
+    }
+}
+
+.card-header{
+    color: #fff;
+}
+
+// footer
+footer{
+    background-color: royalblue;
+    color: #fff !important;
+    ul{
+        li{
+            p{
+                color: #fff !important;
+            }
+        }
+    }
+}
+
+

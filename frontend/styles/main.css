@@ -1,0 +1,85 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  color: royalblue;
+}
+
+.navbar-brand {
+  font-weight: 800;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.btn-login {
+  font-weight: 600;
+}
+
+.btn-login:hover {
+  background-color: orange !important;
+  border-color: orange;
+}
+
+header {
+  padding: 120px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+header h1, header h3, header p {
+  color: #fff;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+header h3 {
+  font-size: 40px;
+}
+
+header p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+header .btn-get-login {
+  background-color: royalblue;
+  font-size: 20px;
+  color: #fff;
+}
+
+header .btn-get-login:hover {
+  background-color: #314580;
+  color: #fff;
+}
+
+.section-petujuk h2 {
+  font-weight: 600;
+}
+
+.section-petujuk table {
+  color: #000 !important;
+}
+
+.section-petujuk img {
+  height: 200px;
+  width: 150px;
+}
+
+.card-header {
+  color: #fff;
+}
+
+footer {
+  background-color: royalblue;
+  color: #fff !important;
+}
+
+footer ul li p {
+  color: #fff !important;
+}
+/*# sourceMappingURL=main.css.map */
